@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-tuulitunneli
+Exec=harbour-tuulitunneli
+Name=harbour-tuulitunneli
+# translation example:
+# your app name in German locale (de)
+Name[de]=harbour-tuulitunneli
+

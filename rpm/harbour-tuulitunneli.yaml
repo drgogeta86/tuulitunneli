@@ -1,0 +1,28 @@
+Name: harbour-tuulitunneli
+Summary: a breeze of Iodine
+Version: 0.1
+Release: 1
+Group: Qt/Qt
+URL: http://github.com/drgogeta86/
+License: GPLv3
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  A SailfishOs implementation Iodine http://code.kryo.se/iodine/
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+  - sailfishapp >= 1.0.2
+  - Qt5Core
+  - Qt5Qml
+  - Qt5Quick
+Requires:
+  - sailfishsilica-qt5 >= 0.10.9 
+  - connman-qt5
+Files:
+  - '%{_bindir}'
+  - '%{_datadir}/%{name}'
+  - '%{_datadir}/applications/%{name}.desktop'
+  - '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
+  - '%{_sharedstatedir}/polkit-1/localauthority/50-local.d/50-harbour-tuulitunneli.pkla'
+  - '%{_sharedstatedir}/polkit-1/actions/org.messinalug.harbour.tuulitunneli.bundle.policy'

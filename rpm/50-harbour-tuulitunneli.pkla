@@ -1,0 +1,6 @@
+[Warehouse]
+Identity=unix-user:nemo
+Action=org.messinalug.harbour.tuulitunnel*
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
